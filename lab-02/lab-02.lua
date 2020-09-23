@@ -1,3 +1,4 @@
+#!/bin/lua5.3
 --Bezuglyi 474
 
 lgi = require'lgi'
@@ -57,6 +58,24 @@ end
 function ui.btn_sqrt:on_clicked(...)
 	if(checkNums())then
 	ui.lbl_result.label = math.sqrt(a)
+	end
+end
+
+function ui.btn_min:on_clicked(...)
+	if(checkNums())then
+	ui.lbl_result.label = math.min(a, b)
+	end
+end
+
+function ui.btn_max:on_clicked(...)
+	if(checkNums())then
+	ui.lbl_result.label = math.max(a, b)
+	end
+end
+
+function ui.btn_log:on_clicked(...)
+	if(checkNums())then
+	ui.lbl_result.label = math.log(a) / math.log(b)
 	end
 end
 
