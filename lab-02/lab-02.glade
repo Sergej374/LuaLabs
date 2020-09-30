@@ -25,6 +25,7 @@
   <object class="GtkImage" id="icon_pow">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
+    <property name="tooltip_text" translatable="yes">Power</property>
     <property name="pixbuf">icons/up-chevron.png</property>
   </object>
   <object class="GtkImage" id="icon_sqrt">
@@ -131,6 +132,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Addition</property>
                 <property name="image">icon_plus</property>
                 <property name="always_show_image">True</property>
               </object>
@@ -144,6 +146,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Subtracking</property>
                 <property name="image">icon_minus</property>
                 <property name="always_show_image">True</property>
               </object>
@@ -157,6 +160,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Multiplying</property>
                 <property name="image">icon_mul</property>
                 <property name="always_show_image">True</property>
               </object>
@@ -170,6 +174,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Dividing</property>
                 <property name="image">icon_div</property>
                 <property name="always_show_image">True</property>
               </object>
@@ -183,6 +188,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Power</property>
                 <property name="image">icon_pow</property>
                 <property name="always_show_image">True</property>
               </object>
@@ -196,6 +202,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Square root</property>
                 <property name="image">icon_sqrt</property>
                 <property name="always_show_image">True</property>
               </object>
@@ -210,6 +217,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Minimum of two</property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
@@ -222,6 +230,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Maximum of two</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -234,6 +243,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Logarithm</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>

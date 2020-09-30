@@ -12,10 +12,25 @@
     <property name="can_focus">False</property>
     <property name="pixbuf">icons/remove.png</property>
   </object>
+  <object class="GtkImage" id="icon_mul">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">icons/multiply-mathematical-sign.png</property>
+  </object>
   <object class="GtkImage" id="icon_plus">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
     <property name="pixbuf">icons/add.png</property>
+  </object>
+  <object class="GtkImage" id="icon_pow">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">icons/up-chevron.png</property>
+  </object>
+  <object class="GtkImage" id="icon_sqrt">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">icons/square-root-mathematical-symbol.png</property>
   </object>
   <object class="GtkWindow" id="wnd">
     <property name="can_focus">False</property>
@@ -139,10 +154,11 @@
             </child>
             <child>
               <object class="GtkButton" id="btn_mul">
-                <property name="label" translatable="yes">mul</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="image">icon_mul</property>
+                <property name="always_show_image">True</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
@@ -151,10 +167,11 @@
             </child>
             <child>
               <object class="GtkButton" id="btn_div">
-                <property name="label" translatable="yes">div</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="image">icon_div</property>
+                <property name="always_show_image">True</property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
@@ -163,10 +180,11 @@
             </child>
             <child>
               <object class="GtkButton" id="btn_pow">
-                <property name="label" translatable="yes">pow</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="image">icon_pow</property>
+                <property name="always_show_image">True</property>
               </object>
               <packing>
                 <property name="left_attach">1</property>
@@ -175,10 +193,11 @@
             </child>
             <child>
               <object class="GtkButton" id="btn_sqrt">
-                <property name="label" translatable="yes">sqrt</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="image">icon_sqrt</property>
+                <property name="always_show_image">True</property>
               </object>
               <packing>
                 <property name="left_attach">2</property>
