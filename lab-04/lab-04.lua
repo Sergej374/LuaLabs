@@ -21,7 +21,7 @@ function ui.btnAdd:on_clicked(...)
 	i = ui.mdl_items:append()
 	ui.mdl_items[i] = {[1] = name, [2] = value, [3] = px }
 end
-
+	
 rdr_txt = gtk.CellRendererText {}
 rdr_pix = gtk.CellRendererPixbuf {}
 
