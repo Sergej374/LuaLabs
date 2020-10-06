@@ -16,7 +16,7 @@ function ui.btnAdd:on_clicked(...)
 	name = ui.boxName.text
 	value = tonumber(ui.boxValue.text)
 
-	px = pixbuf.new_from_file('png/blueberry.png')
+	px = pixbuf.new_from_file('png/' .. ui.picNameBox.text .. '.png')
 
 	i = ui.mdl_items:append()
 	ui.mdl_items[i] = {[1] = name, [2] = value, [3] = px }
