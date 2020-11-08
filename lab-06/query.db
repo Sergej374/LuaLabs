@@ -1,0 +1,8 @@
+drop table if exists list
+
+create table list (Name text, Quantity int, Image text);
+
+insert into list values ( 'asd', 1, 'sad2');
+insert into list values ( 'asda', 2, 'sad');
+insert into list values ( 'asdd', 3, 'sadsa');
+
